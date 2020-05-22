@@ -1,0 +1,27 @@
+form .card{
+    height: 350px;
+    width: 500px;
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+@media screen and (max-width: 550px) {
+    form .card {
+        height: 314px;
+        width: 333px;
+        display: inline-block;
+        margin-top: 71px;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 47px;
+    }
+    tr td input{
+        width: 150px;
+    }
+    th{
+        font-size: 12px;
+    }
+
+}

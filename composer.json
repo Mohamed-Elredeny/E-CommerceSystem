@@ -1,0 +1,13 @@
+{
+    "name": "vendor/mohamed",
+    "license": "GNU3",
+    "authors": [
+        {
+            "name": "Mohamed",
+            "email": "Mohamedelredeny1@gmail.com"
+        }
+    ],
+    "require": {
+        "kreait/firebase-php": "5.0"
+    }
+}

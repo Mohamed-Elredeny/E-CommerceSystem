@@ -1,0 +1,158 @@
+
+.search .bt{
+    width: 80px;
+}
+.Num2adv{
+    position: relative;
+    margin-top: 20px;
+    background: #000000d6;
+    height: 70px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    top: 24%;
+}
+.adv{
+    margin-top: 20px;
+    background: #000000d6;
+    height: 70px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+.Dailyadv{
+    margin-top: 20px;
+    background: white;
+    height: 450px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+.Dailyadv .textSlider{
+    padding: 20px;
+    background: #000000d6;
+    height: 80px;
+    width: 75%;
+    position: relative;
+    left: 25%;
+}
+.Dailyadv .imgsSlider{
+    margin-top: 20px;
+    background: transparent;
+    height: 500px;
+    width: 75%;
+    position: relative;
+    left: 25%;
+
+}
+.Dailyadv .FirstSmallAdv{
+    height: 188px;
+    width: 19%;
+    position: relative;
+    padding-bottom: 40px;
+    display: block;
+    left: 3%;
+    display: block;
+    margin-bottom: 20px;
+    bottom: 140%;
+}
+
+.cats{
+    border: 2px double black;
+    position: relative;
+    width: 95%;
+    top:13%;
+    left: 2%;
+    display: block;
+    margin-top: 33px;
+    text-align: right;
+    direction: rtl;
+    padding-right:5%;
+    font-size: 20px;
+}
+.cats .catTitle{
+    width: 200px;
+    height: 50px;
+    padding-top: 1%;
+}
+.cats .subCats{
+    height: 300px;
+    width: 270px;
+    background: white;
+    text-align: right;
+    direction: rtl;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-bottom: 40px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    .Dailyadv{
+        margin-top: 20px;
+        background: white;
+        height: 450px;
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-weight: bolder;
+    }
+    .Dailyadv .textSlider{
+        padding: 20px;
+        background: #000000d6;
+        height: 80px;
+        width: 66%;
+
+        position: relative;
+        left: 34%;
+    }
+    .Dailyadv .imgsSlider{
+        margin-top: 20px;
+        background: transparent;
+        height: 500px;
+        width: 66%;
+        position: relative;
+        left: 34%;
+
+    }
+    .Dailyadv .FirstSmallAdv{
+        height: 192px;
+        width: 29%;
+        position: relative;
+        padding-bottom: 32px;
+        display: block;
+        left: 3%;
+        display: block;
+        margin-bottom: 0px;
+        bottom: 134%;
+    }
+    .cats .subCats{
+        height: 198px;
+        width: 145px;
+        background: white;
+        text-align: right;
+        direction: rtl;
+        display: inline-block;
+        margin-bottom: 20px;
+        margin-right: 2px;
+        font-weight: bolder;
+        font-size: 20px;
+        padding-bottom: 40px;
+        cursor: pointer;
+    }
+
+}
+a{
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
